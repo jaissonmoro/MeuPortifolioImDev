@@ -76,9 +76,19 @@ body {
 }
 
 .listaProjetos a {
-  color: #1c1c1c;
+  color: #282828;
   text-decoration: none;
   padding-bottom: 50px;
+  
+  background: #737373;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #737373 , #595959);
+}
+
+.listaProjetos a:hover{
+  text-shadow: 2px 2px 5px white;
+ background-image: linear-gradient(to right, #595959 , #737373);
+  transition: 1s;
 }
 
 footer{
